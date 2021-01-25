@@ -1,0 +1,109 @@
+html {
+    margin: 0px;
+    width: 100;
+    font-family:'Courier New', Courier, monospace;
+
+}
+body {
+    margin: 0px;
+    top: 0;
+    bottom: 0;
+    background-color: #556052;
+    background: url(../image/aesthetic.jpg) no-repeat center center fixed;
+     background-size:cover;
+}
+.portfolio-hero {
+    
+    height: 100vh;
+    
+    color:whitesmoke;
+}
+.portfolio-profile {
+    width: 650px;
+    color: #C5BCB7;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%, 50%);
+    text-align: center;
+}
+.portfolio-profile img {
+    height: 300px;
+    width: 300px;
+    border-radius: 30%;
+}
+.portfolio-profile h1 {
+    font-weight: 560;
+    color: brown;
+    margin: 15px;
+    font-size: 3.2;
+    font-family: 'Courier New', Courier, monospace
+}
+.portfolio-profile h4 {
+    color: brown;
+    font-size: 20px;
+}
+/* main */
+main {
+    margin: 15;
+    padding: 100px;
+    background-color: #7E513C;
+    text-align: center;
+
+}
+/*dropdown nav*/
+.navdrop {
+    position: relative;
+    display: inline-block;
+}
+.desc {
+    display: none;
+    padding: 25px;
+    font-size: 20px;
+   color: sienna;
+   font-weight: 1.2rem;
+}
+   
+.dropdwn {
+    background-color: #fcf1f1;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #7F7773;
+    padding: 10px 520px 10px 520px;
+    margin-top: 2%;
+    font-size: 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+
+}
+.navdrop:hover .desc{
+    display: block;
+    position: absolute;
+    background-color: #f9f9f9;
+    max-width: 100%;
+    z-index: 1;
+
+
+}
+a {
+    background-color: #fcf1f1;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #7F7773;
+    padding: 10px 520px 10px 520px;
+    margin-top: 2%;
+    font-size: 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+
+}
+.footer {
+    color: white;
+    text-align: center;
+    padding:20px;
+    background: #7E513C
+    
+}
